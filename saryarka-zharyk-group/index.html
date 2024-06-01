@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коммерческое предложение</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header, .contact-info, .proposal-title, .total, .conditions, .contact-person {
+            margin-bottom: 20px;
+        }
+        .header h1, .proposal-title h2 {
+            color: #007bff;
+        }
+        .services-table th {
+            background-color: #007bff;
+            color: white;
+        }
+        .services-table td {
+            background-color: #f1f1f1;
+        }
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .conditions h3 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        .contact-info, .contact-person {
+            text-align: center;
+        }
+        .contact-info p, .contact-person p {
+            margin: 5px 0;
+        }
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+        .btn-telegram {
+            background-color: #0088cc;
+            border-color: #0088cc;
+        }
+        .btn-telegram:hover {
+            background-color: #006699;
+            border-color: #005580;
+        }
+        .telegram-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header text-center">
+        <h1>Индивидуальный предприниматель "Msoft"</h1>
+    </div>
+
+    <div class="contact-info text-center">
+        <p>г. Алматы</p>
+        <p>Телефон: +77757792533</p>
+        <p>E-mail: murat.mashrapov96@gmail.com</p>
+    </div>
+
+    <div class="proposal-title text-center">
+        <h2>Коммерческое предложение</h2>
+    </div>
+
+    <table class="table table-bordered services-table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Наименование услуги</th>
+                <th>Цена (₸) с НДС</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Разработка сайта</td>
+                <td>200 000 ₸</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Услуги дизайна</td>
+                <td>50 000 ₸</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Услуги настройки и поддержки по контекстной рекламе (включая Google Ads)</td>
+                <td>100 000 ₸</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Услуги по поддержке Google Ads (начиная со второго месяца)</td>
+                <td>50 000 ₸/месяц</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total text-right">
+        <p>Итого: <strong>350 000 ₸</strong> за первый месяц</p>
+    </div>
+
+    <div class="conditions">
+        <h3>Условия предоставления услуг:</h3>
+        <ul>
+            <li>Разработка сайта: Полный цикл создания сайта, включая проектирование, верстку и запуск.</li>
+            <li>Услуги дизайна: Создание уникального дизайна, соответствующего требованиям и бренду заказчика.</li>
+            <li>Услуги настройки и поддержки по контекстной рекламе: Оптимизация и управление рекламными кампаниями для достижения максимальной эффективности. Включает услуги по поддержке Google Ads в первый месяц.</li>
+            <li>Услуги по поддержке Google Ads (начиная со второго месяца): Постоянный мониторинг и корректировка рекламных кампаний для увеличения их рентабельности.</li>
+        </ul>
+    </div>
+
+    <div class="conditions">
+        <h3>Условия оплаты:</h3>
+        <ul>
+            <li>Предоплата: 50%</li>
+            <li>Окончательный расчет: после завершения всех работ</li>
+        </ul>
+    </div>
+
+    <div class="conditions">
+        <h3>Сроки выполнения:</h3>
+        <ul>
+            <li>Разработка сайта: до 30 дней</li>
+            <li>Услуги дизайна: до 10 дней</li>
+            <li>Настройка и поддержка контекстной рекламы: в течение 5 дней после предоставления информации</li>
+            <li>Поддержка Google Ads: ежемесячно</li>
+        </ul>
+    </div>
+
+    <div class="contact-person">
+        <p>Мы готовы начать выполнение работ сразу после подписания договора и получения предоплаты.</p>
+        <p>Контактное лицо:</p>
+        <p>ИП "Msoft"</p>
+        <p>Телефон: +77757792533</p>
+        <p>E-mail: murat.mashrapov96@gmail.com</p>
+        <p>Генеральный директор: Машрапов М.М.</p>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="tel:+77757792533" class="btn btn-success">Позвонить</a>
+        <a href="https://t.me/undefinedchat" class="btn btn-outline-primary">
+            <img src="https://worldvectorlogo.com/logos/telegram.svg" class="telegram-icon" alt="Telegram">
+            Написать в Telegram
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
